@@ -1,0 +1,21 @@
+.friend {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    &:hover {
+        cursor: pointer;
+    }
+    .friend__img{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        border: 1px solid grey;
+        margin-right: 1rem;
+    }
+    .friend__name {
+        font-size: 1.2rem;
+        font-weight: 600;
+    }
+}

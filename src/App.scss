@@ -1,0 +1,38 @@
+@import "./sass/main.scss";
+
+$width-max: 600px;
+
+.App {
+    height: 100%;
+    text-align: center;
+    margin: auto;
+    @include media-min-width($width-max){
+        border: 1px solid lighten($color: grey, $amount: 30);
+        margin: 1rem auto;
+        max-width: 90%;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 1rem;
+    .header__text{
+        font-size: 1.3rem;
+        font-weight: 600;
+    }
+}
+
+.header--your-friend{
+    justify-content: space-between;
+    .header--your-friend__back{
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    .header--your-friend__dummy{
+        visibility: hidden;
+    }
+}
