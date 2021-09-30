@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Add Google Api Key for Google Map
+Please navigate to `moovup-test-question2/src/components/Map/index.jsx` and add your api key in `line 30`
+
+In the project directory, you can run:
+
 ## Available Scripts
 
 In the project directory, you can run:
